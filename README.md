@@ -22,3 +22,4 @@ test('sumTwoNums function adds two numbers', () => {
 - [ ] Run Jest tests with `npm test`
 
 ## How to Write a Unit Test - Option II
+- [ ] Add a `__tests__` directory
