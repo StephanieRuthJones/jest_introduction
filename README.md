@@ -10,3 +10,15 @@
         ```
 - [ ] Run **Jest tests** with `npm test` (run will fail with *No tests found, exiting with code 1* until tests are written)
 
+## How to Write a Unit Test - Option I
+- [ ] Add a `math.test.js` file
+- [ ] Import the **sum function** into the `math.test.js` with `const sumTwoNums = require('./math')`
+- [ ] Write a unit test to check whether the `sumTwoNums` function works
+```
+test('sumTwoNums function adds two numbers', () => {
+    expect(sumTwoNums(1, 2)).toEqual(3)
+})
+```
+- [ ] Run Jest tests with `npm test`
+
+## How to Write a Unit Test - Option II
