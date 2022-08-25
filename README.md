@@ -22,4 +22,8 @@ test('sumTwoNums function adds two numbers', () => {
 - [ ] Run Jest tests with `npm test`
 
 ## How to Write a Unit Test - Option II
-- [ ] Add a `__tests__` directory
+- [ ] Create a `__tests__` directory
+- [ ] Create a `math.test.js` file inside the `__tests__` directory
+- [ ] Import the `multiplyNums` function with `const { multiplyNums } = require('../math')`
+- [ ] Write **unit test** to check that `multiplyNums` function accurately multiplies 2 numbers together
+- [ ] Write **unit test** to check that `multiplyNums` function accurately multiplies 3 numbers together
