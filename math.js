@@ -1,8 +1,5 @@
 function sumTwoNums(numOne, numTwo) {
-    if(!(typeof numOne === 'number') || !(typeof numTwo === 'number')){
-        return "please use numbers only";
-    }
-    return numOne + numTwo;
+    return numOne + numTwo
 }
 
 function multiplyNums(...args) {
